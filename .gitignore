@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build output
+build/
+dist/
+dist_setup/
+*.spec.bak
+
+# Runtime user data
+data/*
+!data/.gitkeep
+
+# Local secrets
+.env
+*.env
+JARVIS_CLOUD_API_KEY.txt
+
+# Large local models and installers
+model/*
+!model/README
+models/*
+!models/README.txt
+whisper_cpp/
+tools/ollama/OllamaSetup.exe
+*.ggml
+*.gguf
+*.bin
